@@ -129,10 +129,21 @@ body{
     .box{
         margin: 10px;
     }
+
+      .box-main__input{
+        width: 75%;
+        margin: 25px;
+        height: auto;
+    }
 }
 
 @media screen and (max-width:640px){
     .box{
+        width: 90%;
+        margin: 25px;
+        height: auto;
+    }
+        .box-main__input{
         width: 90%;
         margin: 25px;
         height: auto;
